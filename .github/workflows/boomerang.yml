@@ -15,7 +15,7 @@ jobs:
       - name: Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.8.5'
+          python-version: '3.12.3'
 
       - name: Boomerang
         run: python3 boomerang.py
